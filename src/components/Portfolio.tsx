@@ -136,7 +136,7 @@ const Portfolio = () => {
                   Background
                 </h3>
                 <p className="text-gray-300 leading-relaxed">
-                  Hi, I'm Abin Antony, a passionate full-stack developer with
+                  Hi, I&apos;m Abin Antony, a passionate full-stack developer with
                   expertise in modern web technologies. I specialize in building
                   dynamic, responsive, and user-friendly applications.
                 </p>
