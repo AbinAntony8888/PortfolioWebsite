@@ -338,7 +338,7 @@ const Portfolio = () => {
                     </span>
                   </div>
                   <a
-                    href="https://github.com/AbinAntony8888/PortfolioWebsite2"
+                    href="https://github.com/AbinAntony8888/PortfolioWebsite"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded transition-colors duration-300"

@@ -38,18 +38,25 @@
 // src/app/layout.tsx
 
 // src/app/layout.tsx
-import './globals.css';
+import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: 'My Portfolio',
-  description: 'Abin Antony Portfolio',
+  title: "My Portfolio",
+  description: "Abin Antony Portfolio",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics/>
+        </body>
     </html>
   );
 }
-
