@@ -114,7 +114,7 @@ const Portfolio = () => {
               Discord
             </a>
             <a
-              href="mailto:abinantony@gmail.com?subject=Hello%20Abin&body=I%20would%20like%20to%20connect%20with%20you."
+              href="mailto:abinantony8888@gmail.com?subject=Hello%20Abin&body=I%20would%20like%20to%20connect%20with%20you."
               className="flex flex-row justify-center items-center gap-2 text-blue-400 border-2 border-violet-600  px-4  bg-white/5 hover:bg-white/10 transition-colors duration-300 transform hover:scale-105 "
             >
               <FaEnvelope color="blue" />
