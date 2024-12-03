@@ -214,11 +214,11 @@ const Portfolio = () => {
             <div className="grid md:grid-cols-2 gap-8">
               {/* Project 1 */}
               <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
-                <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
+                {/* <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
                   <h3 className="text-xl font-semibold text-blue-400 text-center">
                     To-Do App
                   </h3>
-                </div>
+                </div> */}
                 <div className="p-6">
                   <h4 className="text-lg font-bold text-gray-200 mb-2">
                     A Simple Task Management App
@@ -253,11 +253,11 @@ const Portfolio = () => {
 
               {/* Project 2 */}
               <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
-                <div className="bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
+                {/* <div className="bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
                   <h3 className="text-xl font-semibold text-blue-400 text-center">
                     Next.js Chat App Frontend
                   </h3>
-                </div>
+                </div> */}
                 <div className="p-6">
                   <h4 className="text-lg font-bold text-gray-200 mb-2">
                     Real-Time Chat Interface
@@ -294,11 +294,11 @@ const Portfolio = () => {
 
               {/* Project 3 */}
               <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
-                <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
+                {/* <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
                   <h3 className="text-xl font-semibold text-blue-400 text-center">
                     Chat App Backend
                   </h3>
-                </div>
+                </div> */}
                 <div className="p-6">
                   <h4 className="text-lg font-bold text-gray-200 mb-2">
                     Real-Time Messaging System
@@ -333,11 +333,11 @@ const Portfolio = () => {
 
               {/* Project 4 */}
               <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
-                <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
+                {/* <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
                   <h3 className="text-xl font-semibold text-blue-400 text-center">
                     Portfolio Website
                   </h3>
-                </div>
+                </div> */}
                 <div className="p-6">
                   <h4 className="text-lg font-bold text-gray-200 mb-2">
                     Personal Developer Portfolio
