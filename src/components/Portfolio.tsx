@@ -74,7 +74,7 @@ const Portfolio = () => {
           </div>
 
           {/* Social Links */}
-          <div className="  gap-6 mb-10 pt-2 grid grid-cols-1 md:grid-cols-5 px-5">
+          <div className="  gap-6 mb-10 pt-2 grid grid-cols-3 md:grid-cols-5 px-5">
             <Button
               className="bg-gray-900 hover:bg-gray-800 text-white"
               onClick={() => (window.location.href = githubOAuthURL)}
