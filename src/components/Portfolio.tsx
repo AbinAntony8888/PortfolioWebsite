@@ -66,7 +66,7 @@ const Portfolio = () => {
               />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-100 to-purple-100 text-transparent bg-clip-text mb-4">
-              Abin Antony
+               Abin Antony
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 flex items-center justify-center gap-2">
               Full Stack Developer
@@ -74,12 +74,12 @@ const Portfolio = () => {
           </div>
 
           {/* Social Links */}
-          <div className="  gap-6 mb-10 pt-2 grid grid-cols-3 md:grid-cols-5 px-5">
+          <div className="  gap-6 mb-10 pt-2 grid grid-cols-3 md:grid-cols-5 px-4">
             <Button
               className="bg-gray-900 hover:bg-gray-800 text-white"
               onClick={() => (window.location.href = githubOAuthURL)}
             >
-              <Github className="mr-2 h-4 w-4 text-blue-800" />
+              <Github className="mr-2 h-4 w-4 text-blue-500" />
               GitHub
             </Button>
             <Button
@@ -87,7 +87,7 @@ const Portfolio = () => {
               onClick={() => (window.location.href = discordOAuthURL)}
             >
               <svg
-                className="mr-2 h-5 w-5 text-blue-800"
+                className="mr-2 h-5 w-5 text-blue-500"
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
@@ -108,7 +108,7 @@ const Portfolio = () => {
               onClick={() => (window.location.href = stackoverflowdOAuthURL)}
             >
               <svg
-                className="text-blue-800"
+                className="text-blue-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -131,14 +131,14 @@ const Portfolio = () => {
               className="bg-gray-900 hover:bg-gray-800 text-white"
               onClick={() => (window.location.href = linkedindOAuthURL)}
             >
-              <Linkedin className="mr-2 h-4 w-4" color="blue" />
+              <Linkedin className="mr-2 h-4 w-4 text-blue-500" />
               LinkedIn
             </Button>
             <Button
               className="bg-gray-900 hover:bg-gray-800 text-white"
               onClick={() => (window.location.href = emaildOAuthURL)}
             >
-              <MailOpen color="blue" />
+              <MailOpen className="text-blue-500" />
               Email
             </Button>
           </div>
