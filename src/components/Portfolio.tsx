@@ -66,15 +66,17 @@ const Portfolio = () => {
               />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-100 to-purple-100 text-transparent bg-clip-text mb-4">
-               Abin Antony
+              Abin Antony
             </h1>
+
             <p className="text-xl md:text-2xl text-gray-400 flex items-center justify-center gap-2">
               Full Stack Developer
             </p>
           </div>
 
           {/* Social Links */}
-          <div className="  gap-6 mb-10 pt-2 grid grid-cols-3 md:grid-cols-5 px-4">
+          <div className="flex flex-wrap items-center justify-center gap-5 xl:gap-24 mb-10 pt-2  px-4">
+            {/* grid grid-cols-3 md:grid-cols-5 */}
             <Button
               className="bg-gray-900 hover:bg-gray-800 text-white"
               onClick={() => (window.location.href = githubOAuthURL)}
@@ -153,13 +155,13 @@ const Portfolio = () => {
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                "HTML",
-                "CSS",
-                "React",
-                "TypeScript",
                 "Next.js",
+                "React",
                 "Tailwind CSS",
                 "Node.js",
+                "TypeScript",
+                "HTML",
+                "CSS",
                 "GitHub",
               ].map((skill) => (
                 // <div
@@ -211,7 +213,7 @@ const Portfolio = () => {
             <h2 className="text-3xl font-bold mb-8 flex items-center gap-2 border-b border-gray-600 pb-2">
               Experience
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid lg:grid-cols-2 gap-8">
               {/* Project 1 */}
               <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
                 {/* <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
@@ -333,11 +335,11 @@ const Portfolio = () => {
 
               {/* Project 4 */}
               <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
-                {/* <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
+                <div className=" bg-gradient-to-r from-gray-700 via-gray-800 to-black flex justify-center items-center p-4">
                   <h3 className="text-xl font-semibold text-blue-400 text-center">
                     Portfolio Website
                   </h3>
-                </div> */}
+                </div>
                 <div className="p-6">
                   <h4 className="text-lg font-bold text-gray-200 mb-2">
                     Personal Developer Portfolio
