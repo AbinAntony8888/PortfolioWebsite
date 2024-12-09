@@ -1,17 +1,6 @@
 "use client";
-/* eslint-disable react/no-unescaped-entities */
-import { Button } from "@/components/ui/button";
-
 import React from "react";
 import Image from "next/image";
-// import {
-//   FaGithub,
-//   FaLinkedin,
-//   FaStackOverflow,
-//   FaDiscord,
-//   FaEnvelope,
-//   FaDownload,
-// } from "react-icons/fa";
 import Experience from "./Experience";
 import Cv from "./Cv";
 import About from "./About";
@@ -19,24 +8,9 @@ import Skills from "./Skills";
 import SocialLinks from "./SocialLinks";
 
 const Portfolio = () => {
- 
   return (
     <div className="min-h-screen bg-gray-900 text-white">
-      {/* Animated Gradient Background */}
-      <div
-        className="absolute inset-0 opacity-20 "
-        // style={{
-        //   backgroundImage: `
-        //     radial-gradient(at 40% 20%, hsla(28,100%,74%,1) 0, transparent 50%),
-        //     radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0, transparent 50%),
-        //     radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0, transparent 50%),
-        //     radial-gradient(at 80% 50%, hsla(340,100%,76%,1) 0, transparent 50%),
-        //     radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0, transparent 50%),
-        //     radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0, transparent 50%),
-        //     radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0, transparent 50%)
-        //   `,
-        // }}
-      />
+      <div className="absolute inset-0 opacity-20 " />
 
       {/* Dotted Overlay */}
       <div
@@ -69,25 +43,16 @@ const Portfolio = () => {
               Full Stack Developer
             </p>
           </div>
-
-          {/* Social Links */}
-          <SocialLinks/>
-          
+          <SocialLinks />
         </header>
 
         {/* Main Content */}
+
         <main className="px-4 md:px-8 max-w-6xl mx-auto pb-20">
-          {/* Skills Section */}
-          <Skills/>
-          
-          {/* About Section */}
-         <About/>
-
-          {/* Projects Section */}
-          <Experience/>
-
-          {/* CV */}
-         <Cv/>
+          <Skills />
+          <About />
+          <Experience />
+          <Cv />
         </main>
       </div>
     </div>
@@ -95,4 +60,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
