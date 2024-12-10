@@ -12,23 +12,23 @@ export default function SocialLinks() {
     "mailto:abinantony8888@gmail.com?subject=Hello%20Abin&body=I%20would%20like%20to%20connect%20with%20you.";
 
   return (
-    <div className="flex flex-wrap items-center justify-center sm:gap-6 xl:gap-24 mb-10 pt-2 gap-y-6 gap-x-1">
+    <div className="flex flex-wrap items-center justify-center sm:gap-6 xl:gap-24 mb-10 pt-2 gap-y-2 gap-x-2">
       {/* grid grid-cols-3 md:grid-cols-5 */}
       {/* 1 */}
       <Button
-        className="bg-gray-900 hover:bg-gray-800 text-white"
+        className="bg-gray-900  hover:bg-gray-800 text-white"
         onClick={() => (window.location.href = githubOAuthURL)}
       >
-        <Github className="mr-2 h-4 w-4 text-blue-500" />
+        <Github className=" text-blue-500" />
         GitHub
       </Button>
       {/* 2 */}
       <Button
-        className="bg-gray-900 hover:bg-gray-800 text-white"
+        className="bg-gray-900  hover:bg-gray-800 text-white"
         onClick={() => (window.location.href = discordOAuthURL)}
       >
         <svg
-          className="mr-2 h-5 w-5 text-blue-500"
+          className=" text-blue-500"
           aria-hidden="true"
           focusable="false"
           data-prefix="fab"
@@ -46,7 +46,7 @@ export default function SocialLinks() {
       </Button>
       {/* 3 */}
       <Button
-        className="bg-gray-900 hover:bg-gray-800 text-white"
+        className="bg-gray-900  hover:bg-gray-800 text-white"
         onClick={() => (window.location.href = emaildOAuthURL)}
       >
         <MailOpen className="text-blue-500" />
@@ -82,7 +82,7 @@ export default function SocialLinks() {
         className="bg-gray-900 hover:bg-gray-800 text-white"
         onClick={() => (window.location.href = linkedindOAuthURL)}
       >
-        <Linkedin className="mr-2 h-4 w-4 text-blue-500" />
+        <Linkedin className=" text-blue-500" />
         LinkedIn
       </Button>
     </div>

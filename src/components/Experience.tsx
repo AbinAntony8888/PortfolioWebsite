@@ -12,7 +12,7 @@ export default function Experience() {
           {/* Project 1 */}
           <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
             <div className="p-6">
-              <h4 className="flex  justify-center underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
+              <h4 className="flex justify-start underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
                 A Simple Task Management App
               </h4>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -47,7 +47,7 @@ export default function Experience() {
           {/* Project 2 */}
           <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
             <div className="p-6">
-              <h4 className="flex  justify-center underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
+              <h4 className="flex  justify-start underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
                 Real-Time Chat Interface
               </h4>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -84,7 +84,7 @@ export default function Experience() {
           {/* Project 3 */}
           <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
             <div className="p-6">
-              <h4 className="flex  justify-center underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
+              <h4 className="flex  justify-start underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
                 Real-Time Messaging System
               </h4>
               <p className="text-gray-400 leading-relaxed mb-4">
@@ -120,7 +120,7 @@ export default function Experience() {
           {/* Project 4 */}
           <div className="group relative bg-white/5 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-500/20 transition-transform duration-300 transform hover:scale-105">
             <div className="p-6">
-              <h4 className="flex  justify-center underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
+              <h4 className="flex  justify-start underline underline-offset-4 mb-4 text-lg font-bold text-blue-400">
                 Personal Developer Portfolio
               </h4>
               <p className="text-gray-400 leading-relaxed mb-4">

@@ -10,7 +10,7 @@ export default function Cv() {
           className="gap-2 flex items-center justify-center"
           download
         >
-          <Download className="mr-2 h-4 w-4 text-blue-500" />
+          <Download className=" text-blue-500" />
           Download CV
         </a>
       </Button>
